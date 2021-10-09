@@ -34,7 +34,7 @@ def main():
         "password",
         metavar="password",
         type=str,
-        help="password encrypting the password",
+        help="password encrypting the secret",
     )
     args = parser.parse_args()
 
